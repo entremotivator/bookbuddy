@@ -1,5 +1,5 @@
 streamlit>=1.28.0
-streamlit-audiorec>=0.0.5
+streamlit-audiorec
 requests>=2.31.0
 uuid
 os-sys
