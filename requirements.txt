@@ -1,2 +1,6 @@
-streamlit
-git+https://github.com/stefanrmmr/streamlit-audiorec.git
+streamlit>=1.28.0
+streamlit-audiorec>=0.0.5
+requests>=2.31.0
+uuid
+os-sys
+datetime
