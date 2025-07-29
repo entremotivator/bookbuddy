@@ -1,2 +1,2 @@
-streamlit-audiorec
-
+streamlit
+git+https://github.com/stefanrmmr/streamlit-audiorec.git
