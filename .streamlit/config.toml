@@ -1,0 +1,52 @@
+[global]
+# If false, the file watcher will not work
+developmentMode = false
+
+[server]
+# List of folders that should not be watched for changes
+folderWatchBlacklist = ['']
+
+# Change the type of file that is served when running the app
+runOnSave = true
+
+# Enables support for webcam components
+enableCORS = false
+
+# Max size, in megabytes, for files uploaded via the file uploader
+maxUploadSize = 200
+
+# Max size, in megabytes, of messages that can be sent via the WebSocket connection
+maxMessageSize = 200
+
+# Enables support for Cross-Origin Resource Sharing (CORS) for all origins
+enableWebsocketCompression = false
+
+[browser]
+# Whether to send usage stats to Streamlit
+gatherUsageStats = true
+
+# Configure the ability to share apps publicly
+serverAddress = "0.0.0.0"
+
+[theme]
+# The preset Streamlit theme that your custom theme inherits from
+base = "light"
+
+# Primary accent color for interactive elements
+primaryColor = "#1f77b4"
+
+# Background color for the main content area
+backgroundColor = "#ffffff"
+
+# Background color used for the sidebar and most interactive widgets
+secondaryBackgroundColor = "#f0f2f6"
+
+# Color used for almost all text
+textColor = "#262730"
+
+[client]
+# Whether to enable client-side caching
+caching = true
+
+# Controls whether uncaught app exceptions and deprecation warnings are displayed in the browser
+showErrorDetails = true
